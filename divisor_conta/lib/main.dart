@@ -1,22 +1,27 @@
 import 'package:flutter/material.dart';
 
-import 'screens/divisor_home_page.dart';
+import 'screens/lista_contatos_page.dart';
 
 void main() {
-  runApp(const DivisorDeContaApp());
+  runApp(const ListaContatosApp());
 }
 
-class DivisorDeContaApp extends StatelessWidget {
-  const DivisorDeContaApp({super.key});
+class ListaContatosApp extends StatelessWidget {
+  const ListaContatosApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aplicativo divide conta',
+      title: 'Lista de contatos',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 0, 2, 105)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF245C4C),
+          brightness: Brightness.light,
+        ),
+        useMaterial3: true,
       ),
-      home: const DivisorHomePage(),
+      home: const ListaContatosPage(),
     );
   }
 }

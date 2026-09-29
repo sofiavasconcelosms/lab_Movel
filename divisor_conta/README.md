@@ -1,17 +1,13 @@
-# divisor_conta
+# Lista de contatos
 
-A new Flutter project.
+Aplicativo Flutter para Android que exibe cinco contatos pré-cadastrados com
+foto, nome e telefone. Toque em um contato para abrir sua página de detalhes.
 
-## Getting Started
+## Executar
 
-This project is a starting point for a Flutter application.
+Na pasta `divisor_conta`, execute `flutter pub get` e depois
+`flutter run`.
 
-A few resources to get you started if this is your first Flutter project:
+## Testar
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Execute `flutter test` na pasta `divisor_conta`.
