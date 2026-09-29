@@ -1,5 +1,5 @@
-import 'package:divisor_conta/data/contatos.dart';
-import 'package:divisor_conta/main.dart';
+import 'package:lista_contatos/data/contatos.dart';
+import 'package:lista_contatos/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
